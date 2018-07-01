@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title> javascript aula 30 </title>
+</head>
+<body>
+  <script type="text/javascript">
+function house (loc,col,ag,st){
+  this.location=loc;
+  this.color=col;
+  this.age=ag;
+  this.story=st;
+
+}
+var obj_house=new house("favela","black","1998","two");
+for (var i in obj_house){
+document.write(obj_house[i]+"<br>");
+
+}
+
+  </script>
+</body>
+</html>
